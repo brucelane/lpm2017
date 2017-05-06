@@ -38,11 +38,7 @@ require("spectacle/lib/themes/default/index.css");
 
 
 const images = {
-  webgl: require("../assets/webgl.jpg"),
-  vdlogo: require("../assets/videodromm-logo.jpg"),
-  neo: require("../assets/neo.jpg"),
-  circle: require("../assets/circle.jpg"),
-  formidablelogo: require("../assets/formidable-logo.svg")
+  vdlogo: require("../assets/videodromm-logo.jpg")
 };
 
 preloader(images);

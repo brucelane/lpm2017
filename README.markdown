@@ -1,4 +1,4 @@
-# React presentation made with Spectacle from Formidable Labs
+# Live Coding state of art(LPM2017) presentation made with Spectacle from Formidable Labs
 
 ## Reference
 
