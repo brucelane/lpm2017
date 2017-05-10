@@ -30,7 +30,7 @@ import CodeSlide from "spectacle-code-slide";
 import createTheme from "spectacle/lib/themes/default";
 
 // Import custom component
-import Interactive from "../assets/interactive";
+//import Interactive from "../assets/interactive";
 
 // Require CSS
 require("normalize.css");
@@ -38,7 +38,7 @@ require("spectacle/lib/themes/default/index.css");
 
 
 const images = {
-  vdlogo: require("../assets/videodromm-logo.jpg")
+  foxdot: require("../assets/FoxDot.jpg")
 };
 
 preloader(images);
@@ -76,6 +76,13 @@ export default class Presentation extends React.Component {
                 </Heading>
               </Fill>
             </Layout>
+          </Slide>
+          <Slide transition={["zoom"]} bgColor="black">
+            <Heading size={1}  textColor="secondary">
+              FoxDot
+            </Heading>
+            <Image width="40%" src={images.foxdot}/>
+            <Text textSize="1.2em" textColor="white" margin="20px 0px 0px" bold>FoxDot is a live coding language based in Python that utilises SuperCollider for sound synthesis. It focuses on object-oriented programming to create dynamic musical systems where one small change in code can propagate outwards and create large shifts in the music.</Text>
           </Slide>
          </Deck>
       </Spectacle>
